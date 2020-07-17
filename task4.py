@@ -1,0 +1,12 @@
+guests=['Nuraiym', 'Dinaiym', 'Dastan']
+print('i invate you '+ guests[0])
+print('i invate you '+ guests[1])
+#print('i invate you '+ guests[2])
+poped_guests= guests.pop()
+print(guests)
+print(poped_guests)
+guests.append('Argen')
+print(guests)
+print('i invate you '+ guests[0])
+print('i invate you '+ guests[1])
+print('i invate you '+ guests[2])
